@@ -6,6 +6,7 @@ import net.openwebinars.springboot.restjwt.note.model.Note;
 import net.openwebinars.springboot.restjwt.note.repo.NoteRepository;
 import net.openwebinars.springboot.restjwt.note.service.NoteService;
 import net.openwebinars.springboot.restjwt.user.model.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PostAuthorize;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -21,7 +22,9 @@ import java.util.List;
 @RequiredArgsConstructor
 public class NoteController {
 
+    @Autowired
     private final NoteRepository repository;
+    @Autowired
     private final NoteService service;
 
     @GetMapping("/")

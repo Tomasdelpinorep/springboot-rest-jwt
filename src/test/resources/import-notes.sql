@@ -1,0 +1,10 @@
+insert into note (id, title, content, author, important) values (1, 'North and South, Book II', 'et tempus semper est quam pharetra magna ac consequat metus sapien', 'Tabitha', false);
+insert into note (id, title, content, author, important) values (2, 'Risky Business', 'nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac', 'Nikaniki', true);
+insert into note (id, title, content, author, important) values (3, 'Santa''s Pocket Watch', 'duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at', 'Katy', false);
+insert into note (id, title, content, author, important) values (4, 'Trouble Man', 'sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean', 'Grissel', true);
+insert into note (id, title, content, author, important) values (5, 'Johnny Guitar', 'donec semper sapien a libero nam dui proin leo odio porttitor id consequat', 'Rayshell', true);
+insert into note (id, title, content, author, important) values (6, 'Loose Cannons (Mine vaganti)', 'imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin', 'Hedwiga', false);
+insert into note (id, title, content, author, important) values (7, 'ABBA: The Movie', 'luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus', 'Verla', false);
+insert into note (id, title, content, author, important) values (8, 'In the Heart of the Sea', 'morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque', 'Fidel', false);
+insert into note (id, title, content, author, important) values (9, 'Boomerang', 'in felis donec semper sapien a libero nam dui proin leo odio porttitor', 'Ernesta', false);
+insert into note (id, title, content, author, important) values (10, 'The Conrad Boys', 'libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt', 'Jolee', true);
